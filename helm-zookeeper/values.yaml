@@ -1,0 +1,7 @@
+# see https://zookeeper.apache.org/doc/r3.5.4-beta/zookeeperAdmin.html
+# enable ttl nodes
+extraEnvVars:
+  - name: "ZOO_CFG_extendedTypesEnabled"
+    value: "true"
+  - name: "ZOO_CFG_emulate353TTLNodes"
+    value: "true"
