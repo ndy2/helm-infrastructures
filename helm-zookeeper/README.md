@@ -2,8 +2,10 @@
 
 ## Get Chart
 
+```bash
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm fetch bitnami/zookeeper --untar
+```
 
 ## Helm Install
 
