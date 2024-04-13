@@ -440,7 +440,7 @@ ingress:
     labels: { }
     annotations: { }
     tls: [ ]
-    host: minio-console.local
+    host: minio-console.png.local
     path: /
     pathType: Prefix
 # Use an extraResources template section to include additional Kubernetes resources
