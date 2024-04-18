@@ -12,6 +12,12 @@ or download from https://github.com/minio/operator/tree/master/helm-releases
 
 ## Helm Install
 
+run a `mc` pod
+
+```bash
+kubectl run my-mc -i --tty --image minio/mc:latest --command -- bash
+```
+
 ```bash
 kubectl create namespace minio
 helm install -n minio operator operator -f values.operator.yaml
